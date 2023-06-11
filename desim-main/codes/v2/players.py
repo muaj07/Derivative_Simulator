@@ -3,7 +3,7 @@
 """
 Creates the player class. This will treat each individual buyer/seller, rather than the aggregate.
 There should also be a counterpart class that will be the company
-@author: juan
+
 """
 import numpy as np
 import option as op
