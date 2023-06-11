@@ -6,8 +6,6 @@ Created on Thu Jan 20 17:04:35 2022
 Here we price the everlasting option and the funding fee according to 
 
 
-
-@author: juan
 """
 import numpy as np
 import matplotlib.pyplot as plt
