@@ -3,8 +3,6 @@
 """
 Created on Jan 18 20:16:55 2022
 
-@author: juan
-
 
 Here we define the one run model of the simulator
 
