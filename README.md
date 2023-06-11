@@ -3,15 +3,15 @@
 The everlasting options simulation used the ETH daily index price data for the last 1 year, and generate daily random buyers and sellers for both call and Put options. Transction fee are deducted from both buyers and sellers, which is added to the protocol teasury. Also, a 2% cut of the daily funding fee paid by the buyers is transfer to the protocol teasury as generated revenue. When a buyer closes the position in profit, the buyer is paid from the protocol teasury.
 
 The main steps of the simulators are: 
-- a) Randomly create buyers (for call and put options) with min and max given value;
--  b) Randomly pick a strike price and contract size for each buyer; 
--  c) Randomly create sellers (for call and put options) with min and max given value;
--  d) Randomly pick a strike price and contract size for each seller; 
--  e) Compute the daily mark price and daily funding fee based on the number of buyers and sellers; 
--  f) Compute the transction feee paid by both the buyers and sellers and update the teasury; 
--  g) Charge buyers for daily funding fee; h) Pay seller the 0.98% of the daily funding fee charged from buyers; 
--  i) Repeat the whole process till last day of the year; 
--  j) In the meanwhile close sellers and buyers positions when they are in significant profit or in significant loss.
+- Randomly create buyers (for call and put options) with min and max given value;
+- Randomly pick a strike price and contract size for each buyer; 
+- Randomly create sellers (for call and put options) with min and max given value;
+- Randomly pick a strike price and contract size for each seller; 
+- Compute the daily mark price and daily funding fee based on the number of buyers and sellers; 
+- Compute the transction feee paid by both the buyers and sellers and update the teasury; 
+- Charge buyers for daily funding fee; h) Pay seller the 0.98% of the daily funding fee charged from buyers; 
+- Repeat the whole process till last day of the year; 
+- In the meanwhile close sellers and buyers positions when they are in significant profit or in significant loss.
 
 
 
